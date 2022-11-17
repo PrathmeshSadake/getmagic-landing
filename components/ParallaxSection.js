@@ -38,8 +38,8 @@ export default function ParallaxSection() {
         pages={3}
         horizontal
       >
-        <Page offset={0} gradient='pink' onClick={() => scroll(1)} />
-        <Page offset={1} gradient='pink' onClick={() => scroll(2)} />
+        <Page offset={0} gradient='indigo' onClick={() => scroll(1)} />
+        <Page offset={1} gradient='indigo' onClick={() => scroll(2)} />
         <Page offset={2} gradient='tomato' onClick={() => scroll(0)} />
       </Parallax>
     </div>

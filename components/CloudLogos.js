@@ -1,6 +1,6 @@
 export default function CloudLogos() {
   return (
-    <div className='bg-black relative'>
+    <div className='bg-black relative py-6'>
       <div className='z-10 absolute inset-x-0 top-[-10rem] transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]'>
         <svg
           className='relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]'

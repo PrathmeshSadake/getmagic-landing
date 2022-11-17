@@ -8,3 +8,14 @@
 body {
   font-family: "GT Walsheim Pro", "Poppins", sans-serif;
 }
+
+.ball {
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 2px solid white;
+  border-radius: 50%;
+  pointer-events: none;
+}

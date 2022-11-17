@@ -7,9 +7,10 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "How it works", href: "#" },
+  { name: "Pricing", href: "#" },
+  { name: "Creator Live", href: "#" },
+  { name: "Become a Creator", href: "#" },
 ];
 
 export default function Example() {
@@ -38,8 +39,8 @@ export default function Example() {
               y2='474.645'
               gradientUnits='userSpaceOnUse'
             >
-              <stop stopColor='#9089FC' />
-              <stop offset={1} stopColor='#FF80B5' />
+              <stop stopColor='#4337C9' />
+              <stop offset={1} stopColor='#FFF' />
             </linearGradient>
           </defs>
         </svg>
@@ -71,16 +72,16 @@ export default function Example() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className='font-medium text-gray-200 hover:text-gray-200'
+                  className='font-medium text-gray-200 hover:text-indigo-600 transition-all duration-500'
                 >
                   {item.name}
                 </a>
               ))}
             </div>
-            <div className='hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end'>
+            <div className='hidden lg:flex lg:min-w-0  lg:justify-end'>
               <a
                 href='#'
-                className='inline-block rounded-lg px-3 py-1.5 text-sm font-medium leading-6 text-gray-200 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20'
+                className='inline-block rounded-lg px-4 py-1.5 text-base font-medium leading-6 bg-gray-700 text-gray-200 shadow-sm'
               >
                 Log in
               </a>
@@ -145,41 +146,34 @@ export default function Example() {
           <div className='mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40'>
             <div>
               <div className='hidden sm:mb-8 sm:flex sm:justify-center'>
-                <div className='relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20'>
+                <div className='relative overflow-hidden rounded-full py-1.5 px-4 text-base leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20'>
                   <span className='text-gray-200'>
-                    Announcing our next round of funding.{" "}
-                    <a href='#' className='font-medium text-pink-600'>
+                    Connect with Top Brands looking to hire{" "}
+                    <a href='#' className='font-medium text-indigo-600'>
                       <span className='absolute inset-0' aria-hidden='true' />
-                      Read more <span aria-hidden='true'>&rarr;</span>
+                      Creative Talent Today{" "}
+                      <span aria-hidden='true' className='ml-1'>
+                        &rarr;
+                      </span>
                     </a>
                   </span>
                 </div>
               </div>
               <div>
                 <h1 className='text-white text-4xl font-medium tracking-tight sm:text-center sm:text-6xl'>
-                  Data to enrich your online business
+                  Your Creativity Matters, Follower Counts Don’t Matter
                 </h1>
-                <p className='mt-6 text-lg leading-8 text-gray-200 sm:text-center'>
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat aliqua.
+                <p className='mt-6 text-xl leading-8 text-gray-200 sm:text-center'>
+                  Get Paid with clear built-in contracts in place - Never get
+                  cheated again!
                 </p>
                 <div className='mt-8 flex gap-x-4 sm:justify-center'>
                   <a
                     href='#'
-                    className='inline-block rounded-lg bg-pink-600 px-4 py-1.5 text-base font-medium leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700'
+                    className='inline-block rounded-md bg-indigo-600 px-4 py-1.5 text-base font-medium leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700'
                   >
                     Get started
-                    <span className='text-pink-200' aria-hidden='true'>
-                      &rarr;
-                    </span>
-                  </a>
-                  <a
-                    href='#'
-                    className='inline-block rounded-lg px-4 py-1.5 text-base font-medium leading-7 text-gray-200 ring-1 ring-gray-900/10 hover:ring-gray-900/20'
-                  >
-                    Live demo
-                    <span className='text-gray-400' aria-hidden='true'>
+                    <span className='text-indigo-200 ml-3' aria-hidden='true'>
                       &rarr;
                     </span>
                   </a>
@@ -206,8 +200,8 @@ export default function Example() {
                       y2='474.645'
                       gradientUnits='userSpaceOnUse'
                     >
-                      <stop stopColor='#9089FC' />
-                      <stop offset={1} stopColor='#FF80B5' />
+                      <stop stopColor='#4337C9' />
+                      <stop offset={1} stopColor='#4337C9' />
                     </linearGradient>
                   </defs>
                 </svg>

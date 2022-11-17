@@ -10,7 +10,7 @@ export default function Example() {
             <div className='px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2'>
               <div>
                 <div>
-                  <span className='h-12 w-12 rounded-md flex items-center justify-center bg-pink-600'>
+                  <span className='h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600'>
                     <SparklesIcon
                       className='h-6 w-6 text-white'
                       aria-hidden='true'
@@ -21,7 +21,7 @@ export default function Example() {
                   <h2 className='text-3xl font-medium tracking-tight text-gray-50'>
                     Better understand your customers
                   </h2>
-                  <p className='mt-4 text-lg text-gray-300'>
+                  <p className='mt-4 text-xl text-gray-300'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
                     Pulvinar laoreet sagittis viverra duis. In venenatis sem
@@ -31,7 +31,7 @@ export default function Example() {
                   <div className='mt-6'>
                     <a
                       href='#'
-                      className='inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-pink-600 hover:bg-pink-700'
+                      className='inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700'
                     >
                       Get started
                     </a>
@@ -66,7 +66,7 @@ export default function Example() {
                   <h2 className='text-3xl font-medium tracking-tight text-gray-50'>
                     Stay on top of customer support
                   </h2>
-                  <p className='mt-4 text-lg text-gray-300'>
+                  <p className='mt-4 text-xl text-gray-300'>
                     Semper curabitur ullamcorper posuere nunc sed. Ornare
                     iaculis bibendum malesuada faucibus lacinia porttitor.
                     Pulvinar laoreet sagittis viverra duis. In venenatis sem
@@ -76,7 +76,7 @@ export default function Example() {
                   <div className='mt-6'>
                     <a
                       href='#'
-                      className='inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-pink-600 hover:bg-pink-700'
+                      className='inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700'
                     >
                       Get started
                     </a>

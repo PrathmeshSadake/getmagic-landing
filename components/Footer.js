@@ -115,7 +115,7 @@ export default function Footer() {
           <div className='grid grid-cols-2 gap-8 xl:col-span-2'>
             <div className='md:grid md:grid-cols-2 md:gap-8'>
               <div>
-                <h3 className='text-sm font-medium text-gray-400 tracking-wider uppercase'>
+                <h3 className='text-base font-medium text-gray-400 tracking-wider uppercase'>
                   Solutions
                 </h3>
                 <ul role='list' className='mt-4 space-y-4'>
@@ -132,7 +132,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className='mt-12 md:mt-0'>
-                <h3 className='text-sm font-medium text-gray-400 tracking-wider uppercase'>
+                <h3 className='text-base font-medium text-gray-400 tracking-wider uppercase'>
                   Support
                 </h3>
                 <ul role='list' className='mt-4 space-y-4'>
@@ -151,7 +151,7 @@ export default function Footer() {
             </div>
             <div className='md:grid md:grid-cols-2 md:gap-8'>
               <div>
-                <h3 className='text-sm font-medium text-gray-400 tracking-wider uppercase'>
+                <h3 className='text-base font-medium text-gray-400 tracking-wider uppercase'>
                   Company
                 </h3>
                 <ul role='list' className='mt-4 space-y-4'>
@@ -168,7 +168,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className='mt-12 md:mt-0'>
-                <h3 className='text-sm font-medium text-gray-400 tracking-wider uppercase'>
+                <h3 className='text-base font-medium text-gray-400 tracking-wider uppercase'>
                   Legal
                 </h3>
                 <ul role='list' className='mt-4 space-y-4'>
@@ -187,7 +187,7 @@ export default function Footer() {
             </div>
           </div>
           <div className='mt-8 xl:mt-0'>
-            <h3 className='text-sm font-medium text-gray-400 tracking-wider uppercase'>
+            <h3 className='text-base font-medium text-gray-400 tracking-wider uppercase'>
               Subscribe to our newsletter
             </h3>
             <p className='mt-4 text-base text-gray-300'>
@@ -210,7 +210,7 @@ export default function Footer() {
               <div className='mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0'>
                 <button
                   type='submit'
-                  className='w-full bg-pink-500 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-pink-500'
+                  className='w-full bg-indigo-500 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500'
                 >
                   Subscribe
                 </button>
@@ -231,8 +231,8 @@ export default function Footer() {
               </a>
             ))}
           </div>
-          <p className='mt-8 text-base text-gray-400 md:mt-0 md:order-1'>
-            &copy; 2020 Workflow, Inc. All rights reserved.
+          <p className='mt-8 text-xl text-gray-400 md:mt-0 md:order-1'>
+            &copy; 2022 Kollaborate, Inc. All rights reserved.
           </p>
         </div>
       </div>

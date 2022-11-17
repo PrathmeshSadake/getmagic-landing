@@ -39,11 +39,11 @@
   cursor: pointer;
 }
 
-.pink {
-  background: linear-gradient(to right, deeppink 0%, coral 100%);
+.indigo {
+  background: linear-gradient(to right, deepindigo 0%, coral 100%);
 }
 
-.pink {
+.indigo {
   background: linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%);
 }
 
