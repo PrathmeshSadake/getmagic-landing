@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+body {
+  font-family: "GT Walsheim Pro", "Poppins", sans-serif;
+}
