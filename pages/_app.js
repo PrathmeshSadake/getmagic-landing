@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
       {/* Custom Cursor */}
-      <div class='ball'></div>
+      <div class='ball hidden lg:block'></div>
     </React.Fragment>
   );
 }
